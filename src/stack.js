@@ -21,9 +21,7 @@ class Stack {
   }
 
   pop() {
-    const res = this.arr[this.arr.length - 1]
-    this.arr.splice(this.arr.length - 1)
-    return res
+    return this.arr.pop()
   }
 
   peek() {
